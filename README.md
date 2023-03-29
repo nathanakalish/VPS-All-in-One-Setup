@@ -19,7 +19,7 @@ This repository contains a shell script to quickly set up an all-in-one media se
 
 1. Clone this repository to your local machine:
 
-git clone https://github.com/bitnotfound/serversetup.git
+git clone https://github.com/bitnotfound/VPS-All-in-One-Setup.git
 
 
 2. Change directory to the repository:
@@ -50,4 +50,4 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 ## License
 
-[MIT](https://choosealicense.com/licenses/mit/)
+[AGPLv3](https://choosealicense.com/licenses/agpl-3.0/)
