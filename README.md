@@ -1,6 +1,10 @@
 # Server Setup Script.
 
-This repository contains a shell script to quickly set up an all-in-one media server with Docker containers. The script installs Wireguard (optional), sets up Docker containers for various media server applications, and creates a Cloudflare tunnel (optional). I made this script to easily and quickly set up a new VPS. I switch between different VPSs sometimes, so I wanted an easy way to get everything going again. This script assumes you have a separate server that has all of the "Main stuff" on another, likely local, server. The script automatically configures and starts the Docker containers for the following services:
+This repository contains a shell script to quickly set up an all-in-one media server with Docker containers. The script installs Wireguard (optional), sets up Docker containers for various media server applications, and creates a Cloudflare tunnel (optional). It uses Wireguard to link this VPS with another, likely local, server with various other applications. It uses the Cloudflare tunnel to not expose its own IP and ports to the internet for security.
+
+I made this script to easily and quickly set up a new VPS. I switch between different VPSs sometimes, so I wanted an easy way to get everything going again.
+
+The script automatically configures and starts the Docker containers for the following services:
 
 - Portainer
 - NGINX Proxy Manager
